@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD6514F93E2F519B072F359 /* libPods-HXReader12.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EEE0DD682BC069843C1C71C /* libPods-HXReader12.a */; };
+		6B283B4C1D94095700B39C5B /* XHTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B4B1D94095700B39C5B /* XHTestController.m */; };
+		6B283B4F1D9419BC00B39C5B /* XHTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B283B4E1D9419BC00B39C5B /* XHTestCell.m */; };
+		6B63E0F71D93D95A0098F4B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63E0F61D93D95A0098F4B2 /* main.m */; };
+		6B63E0FA1D93D95A0098F4B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63E0F91D93D95A0098F4B2 /* AppDelegate.m */; };
+		6B63E1021D93D95A0098F4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B63E1011D93D95A0098F4B2 /* Assets.xcassets */; };
+		6B63E1051D93D95A0098F4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B63E1031D93D95A0098F4B2 /* LaunchScreen.storyboard */; };
+		6B63E1261D93DA760098F4B2 /* XHMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63E1191D93DA760098F4B2 /* XHMainTabBarController.m */; };
+		6B63E1271D93DA760098F4B2 /* XHMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63E11F1D93DA760098F4B2 /* XHMusicViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5741571B385D1FA80A4753DF /* Pods-HXReader12.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXReader12.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXReader12/Pods-HXReader12.release.xcconfig"; sourceTree = "<group>"; };
+		6B283B4A1D94095700B39C5B /* XHTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTestController.h; sourceTree = "<group>"; };
+		6B283B4B1D94095700B39C5B /* XHTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTestController.m; sourceTree = "<group>"; };
+		6B283B4D1D9419BC00B39C5B /* XHTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTestCell.h; sourceTree = "<group>"; };
+		6B283B4E1D9419BC00B39C5B /* XHTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTestCell.m; sourceTree = "<group>"; };
+		6B283B501D94216D00B39C5B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6B63E0F21D93D95A0098F4B2 /* HXReader12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXReader12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63E0F61D93D95A0098F4B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B63E0F81D93D95A0098F4B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B63E0F91D93D95A0098F4B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B63E1011D93D95A0098F4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B63E1041D93D95A0098F4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B63E1061D93D95A0098F4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B63E1181D93DA760098F4B2 /* XHMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMainTabBarController.h; sourceTree = "<group>"; };
+		6B63E1191D93DA760098F4B2 /* XHMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMainTabBarController.m; sourceTree = "<group>"; };
+		6B63E11E1D93DA760098F4B2 /* XHMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMusicViewController.h; sourceTree = "<group>"; };
+		6B63E11F1D93DA760098F4B2 /* XHMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMusicViewController.m; sourceTree = "<group>"; };
+		7EEE0DD682BC069843C1C71C /* libPods-HXReader12.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HXReader12.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50C12251F736F2345741EDE /* Pods-HXReader12.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXReader12.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXReader12/Pods-HXReader12.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B63E0EF1D93D95A0098F4B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6514F93E2F519B072F359 /* libPods-HXReader12.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F3CE63E1308369BC5951F9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EEE0DD682BC069843C1C71C /* libPods-HXReader12.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B63E0E91D93D95A0098F4B2 = {
+			isa = PBXGroup;
+			children = (
+				6B63E0F41D93D95A0098F4B2 /* HXReader12 */,
+				6B63E0F31D93D95A0098F4B2 /* Products */,
+				A9558CDD3556CF0626A273A6 /* Pods */,
+				1F3CE63E1308369BC5951F9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B63E0F31D93D95A0098F4B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E0F21D93D95A0098F4B2 /* HXReader12.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B63E0F41D93D95A0098F4B2 /* HXReader12 */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E10D1D93DA760098F4B2 /* Classes */,
+				6B63E10C1D93D9750098F4B2 /* Other */,
+				6B63E0F51D93D95A0098F4B2 /* Supporting Files */,
+			);
+			path = HXReader12;
+			sourceTree = "<group>";
+		};
+		6B63E0F51D93D95A0098F4B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E0F61D93D95A0098F4B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B63E10C1D93D9750098F4B2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E0F81D93D95A0098F4B2 /* AppDelegate.h */,
+				6B63E0F91D93D95A0098F4B2 /* AppDelegate.m */,
+				6B63E1011D93D95A0098F4B2 /* Assets.xcassets */,
+				6B63E1031D93D95A0098F4B2 /* LaunchScreen.storyboard */,
+				6B63E1061D93D95A0098F4B2 /* Info.plist */,
+				6B283B501D94216D00B39C5B /* PrefixHeader.pch */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		6B63E10D1D93DA760098F4B2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E10E1D93DA760098F4B2 /* BoolSelf */,
+				6B63E1121D93DA760098F4B2 /* Find */,
+				6B63E1161D93DA760098F4B2 /* Main */,
+				6B63E11C1D93DA760098F4B2 /* NewFadture */,
+				6B63E1221D93DA760098F4B2 /* StackRoom */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6B63E10E1D93DA760098F4B2 /* BoolSelf */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E10F1D93DA760098F4B2 /* controller */,
+				6B63E1101D93DA760098F4B2 /* model */,
+				6B63E1111D93DA760098F4B2 /* view */,
+			);
+			path = BoolSelf;
+			sourceTree = "<group>";
+		};
+		6B63E10F1D93DA760098F4B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6B63E1101D93DA760098F4B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B63E1111D93DA760098F4B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B63E1121D93DA760098F4B2 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E1131D93DA760098F4B2 /* controller */,
+				6B63E1141D93DA760098F4B2 /* model */,
+				6B63E1151D93DA760098F4B2 /* view */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		6B63E1131D93DA760098F4B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6B63E1141D93DA760098F4B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B63E1151D93DA760098F4B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B63E1161D93DA760098F4B2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E1171D93DA760098F4B2 /* controller */,
+				6B63E11A1D93DA760098F4B2 /* model */,
+				6B63E11B1D93DA760098F4B2 /* view */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6B63E1171D93DA760098F4B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E1181D93DA760098F4B2 /* XHMainTabBarController.h */,
+				6B63E1191D93DA760098F4B2 /* XHMainTabBarController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6B63E11A1D93DA760098F4B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B63E11B1D93DA760098F4B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B63E11C1D93DA760098F4B2 /* NewFadture */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E11D1D93DA760098F4B2 /* controller */,
+				6B63E1201D93DA760098F4B2 /* model */,
+				6B63E1211D93DA760098F4B2 /* view */,
+			);
+			path = NewFadture;
+			sourceTree = "<group>";
+		};
+		6B63E11D1D93DA760098F4B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E11E1D93DA760098F4B2 /* XHMusicViewController.h */,
+				6B63E11F1D93DA760098F4B2 /* XHMusicViewController.m */,
+				6B283B4A1D94095700B39C5B /* XHTestController.h */,
+				6B283B4B1D94095700B39C5B /* XHTestController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6B63E1201D93DA760098F4B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B63E1211D93DA760098F4B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6B283B4D1D9419BC00B39C5B /* XHTestCell.h */,
+				6B283B4E1D9419BC00B39C5B /* XHTestCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B63E1221D93DA760098F4B2 /* StackRoom */ = {
+			isa = PBXGroup;
+			children = (
+				6B63E1231D93DA760098F4B2 /* controller */,
+				6B63E1241D93DA760098F4B2 /* model */,
+				6B63E1251D93DA760098F4B2 /* view */,
+			);
+			path = StackRoom;
+			sourceTree = "<group>";
+		};
+		6B63E1231D93DA760098F4B2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6B63E1241D93DA760098F4B2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B63E1251D93DA760098F4B2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A9558CDD3556CF0626A273A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C50C12251F736F2345741EDE /* Pods-HXReader12.debug.xcconfig */,
+				5741571B385D1FA80A4753DF /* Pods-HXReader12.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B63E0F11D93D95A0098F4B2 /* HXReader12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63E1091D93D95A0098F4B2 /* Build configuration list for PBXNativeTarget "HXReader12" */;
+			buildPhases = (
+				F5F79F56FF8357341C4B3C25 /* [CP] Check Pods Manifest.lock */,
+				6B63E0EE1D93D95A0098F4B2 /* Sources */,
+				6B63E0EF1D93D95A0098F4B2 /* Frameworks */,
+				6B63E0F01D93D95A0098F4B2 /* Resources */,
+				7787ED216603E93174A791C9 /* [CP] Embed Pods Frameworks */,
+				942FD1B8267C20AE215885C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXReader12;
+			productName = HXReader12;
+			productReference = 6B63E0F21D93D95A0098F4B2 /* HXReader12.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B63E0EA1D93D95A0098F4B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XH;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小黑";
+				TargetAttributes = {
+					6B63E0F11D93D95A0098F4B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6B63E0ED1D93D95A0098F4B2 /* Build configuration list for PBXProject "HXReader12" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B63E0E91D93D95A0098F4B2;
+			productRefGroup = 6B63E0F31D93D95A0098F4B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B63E0F11D93D95A0098F4B2 /* HXReader12 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B63E0F01D93D95A0098F4B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63E1051D93D95A0098F4B2 /* LaunchScreen.storyboard in Resources */,
+				6B63E1021D93D95A0098F4B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7787ED216603E93174A791C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXReader12/Pods-HXReader12-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942FD1B8267C20AE215885C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXReader12/Pods-HXReader12-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F79F56FF8357341C4B3C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B63E0EE1D93D95A0098F4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63E1261D93DA760098F4B2 /* XHMainTabBarController.m in Sources */,
+				6B63E0FA1D93D95A0098F4B2 /* AppDelegate.m in Sources */,
+				6B63E1271D93DA760098F4B2 /* XHMusicViewController.m in Sources */,
+				6B63E0F71D93D95A0098F4B2 /* main.m in Sources */,
+				6B283B4C1D94095700B39C5B /* XHTestController.m in Sources */,
+				6B283B4F1D9419BC00B39C5B /* XHTestCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B63E1031D93D95A0098F4B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B63E1041D93D95A0098F4B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B63E1071D93D95A0098F4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B63E1081D93D95A0098F4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B63E10A1D93D95A0098F4B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50C12251F736F2345741EDE /* Pods-HXReader12.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXReader12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.diyxgf.com.HXReader12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B63E10B1D93D95A0098F4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5741571B385D1FA80A4753DF /* Pods-HXReader12.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HXReader12/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.diyxgf.com.HXReader12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B63E0ED1D93D95A0098F4B2 /* Build configuration list for PBXProject "HXReader12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63E1071D93D95A0098F4B2 /* Debug */,
+				6B63E1081D93D95A0098F4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63E1091D93D95A0098F4B2 /* Build configuration list for PBXNativeTarget "HXReader12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63E10A1D93D95A0098F4B2 /* Debug */,
+				6B63E10B1D93D95A0098F4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B63E0EA1D93D95A0098F4B2 /* Project object */;
+}
